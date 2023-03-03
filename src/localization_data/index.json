@@ -1,0 +1,14 @@
+{
+    "es": {
+        "heading": "Ejemplo de localización de contenido",
+        "content": "Este es un servicio que sirve contenido localizado utilizando el encabezado de idioma",
+        "disclaimer": "Descargo de responsabilidad: el contenido se traduce con el traductor de Google, por lo que podría no ser perfecto",
+        "about-link": "¡Aprende más sobre mí!"
+    },
+    "de": {
+        "heading": "Beispiel für Inhaltslokalisierung",
+        "content": "Dies ist ein Dienst, der lokalisierte Inhalte mithilfe des Sprachheaders bereitstellt",
+        "disclaimer": "Haftungsausschluss: Der Inhalt wurde mit Google Translate übersetzt, daher ist er möglicherweise nicht perfekt",
+        "about-link": "Erfahren Sie mehr über mich!"
+    }
+}

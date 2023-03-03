@@ -1,0 +1,16 @@
+spin_version = "1"
+authors = ["karthik Ganeshram <karthik.ganeshram@fermyon.com>"]
+description = "A spin app that localizes content based on language header"
+name = "website-localization"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "website-localization"
+source = "target/spin-http-js.wasm"
+exclude_files = ["**/node_modules"]
+files = ["src/html_content/*", "src/localization_data/*"]
+[component.trigger]
+route = "/..."
+[component.build]
+command = "npm run build"
