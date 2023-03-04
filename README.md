@@ -1,6 +1,6 @@
 ## Spin content Localization Example
 
-This repository showcases serving localized content based on `accept-langugage` headers using spin.
+This repository showcases serving localized content based on `accept-langugage` headers using spin. This allows to customize content based on the preferred language of the user.
 
 ### Building and Running the Examples
 
@@ -24,6 +24,10 @@ $ curl -i -H 'Accept-Language: de'  localhost:3000
 # For the Spanish version
 $ curl -i -H 'Accept-Language: es'  localhost:3000
 ```
+
+![English version](./static/english.png)
+![German version](./static/german.png)
+![Spanish version](./static/spanish.png)
 
 ### Modifying the Content
 
